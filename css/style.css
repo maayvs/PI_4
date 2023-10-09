@@ -1,24 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
 }
 
 @font-face {
     font-family: Dancing;
-    src: url('fonts/DancingScript-VariableFont_wght.ttf');
-}
-nav {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    gap: 30px;
-    background-color: black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px;
+    src: url('/fonts/DancingScript-VariableFont_wght.ttf');
 }
 
-nav a{
-    height: 100%;
-    width: 100%;
+nav {
+    list-style-type: none;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+
+nav li {
+    display: inline;
+}
+
+nav li a {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    transition: 0.8s;
+    cursor:pointer;
+}
+
+nav li a:hover {
+    background-color: rgb(61, 59, 59);
+    padding: 20px;
+    text-align: center;
     color: white;
 }
 
@@ -70,4 +90,6 @@ thead {
 
 tfoot {
     text-align: center;
+    text-decoration: none;
+    color: white;
 }
