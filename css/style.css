@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: Dancing;
+    src: url('/fonts/DancingScript-VariableFont_wght.ttf');
+}
+nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+}
+
+nav a{
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+main {
+    background-color: rgb(252, 252, 241);
+}
+
+main text {
+    font-size: 150px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0px;
+}
+
+.welcome h1 {
+    font-family: Dancing;
+    font-size: 80px;
+}
+
+.services {
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+table {
+    background-color: black;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.171);
+    padding: 20px;
+    width: 700px;
+    height: 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+thead {
+    font-family: Dancing;
+    text-align: center;
+    font-size: 50px;
+}
+
+tfoot {
+    text-align: center;
+}
