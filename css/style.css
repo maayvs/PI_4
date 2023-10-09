@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: Dancing;
-    src: url('fonts/DancingScript-VariableFont_wght.ttf');
+    src: url('/fonts/DancingScript-VariableFont_wght.ttf');
 }
 
 nav {
@@ -20,6 +20,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav li {
@@ -27,6 +28,7 @@ nav li {
 }
 
 nav li a {
+    text-decoration: none;
     background-color: black;
     padding: 20px;
     text-align: center;
@@ -73,7 +75,8 @@ main text {
 
 table {
     background-color: black;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.171);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
     padding: 20px;
     width: 700px;
     height: 20px;
@@ -88,8 +91,13 @@ thead {
     font-size: 50px;
 }
 
-tfoot {
-    text-align: center;
+tfoot a {
+    display: flex;
     text-decoration: none;
-    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+tfoot a:hover {
+    text-decoration: underline;
 }
