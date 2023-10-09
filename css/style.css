@@ -10,7 +10,7 @@ body {
 
 @font-face {
     font-family: Dancing;
-    src: url('/fonts/DancingScript-VariableFont_wght.ttf');
+    src: url('fonts/DancingScript-VariableFont_wght.ttf');
 }
 
 nav {
