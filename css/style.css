@@ -6,38 +6,42 @@
 
 body {
     margin: 0;
+    height: 100%;
+}
+
+html {
+    height: 100%;
 }
 
 @font-face {
     font-family: Dancing;
-    src: url('fonts/DancingScript-VariableFont_wght.ttf');
+    src: url('/fonts/DancingScript-VariableFont_wght.ttf');
 }
 
-nav {
+.nav {
     list-style-type: none;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
     padding: 20px;
     display: flex;
     justify-content: center;
     gap: 80px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav li {
+.nav li {
     display: inline;
 }
 
-nav li a {
-    text-decoration: none;
+.nav li a {
     background-color: black;
     padding: 20px;
     text-align: center;
     color: white;
     transition: 0.8s;
     cursor:pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-nav li a:hover {
+.nav li a:hover {
     background-color: rgb(61, 59, 59);
     padding: 20px;
     text-align: center;
@@ -91,13 +95,106 @@ thead {
     font-size: 50px;
 }
 
-tfoot a {
+tfoot a{
     display: flex;
-    text-decoration: none;
-    text-align: center;
     justify-content: center;
+    text-align: center;
+    color: white;
 }
 
 tfoot a:hover {
-    text-decoration: underline;
+    background-color: rgb(61, 59, 59);
+    transition: 0.8s;
+}
+
+.depoimentos-cont text {
+    font-size: 18px;
+}
+
+.card .user {
+    width: 100px;
+}
+
+.star {
+    width: 20px;
+}
+
+.depoimentos h2 {
+    display: flex;
+    justify-content: center;
+    font-family: Dancing;
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    max-width: 980px;
+    margin: auto;
+
+    grid-gap: 30px;
+}
+
+.card {
+    background-color: white;
+    margin-bottom: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 40px;
+    box-shadow: 6px 6px 10px #0000002c;
+    border-radius: 2%;
+}
+
+.card .user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px #0000002c;
+}
+
+.cards p {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+}
+
+.visita {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    margin: auto;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.visita h2 {
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.visita text {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.visita a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+visita a{
+    background-color: rgb(61, 59, 59);
 }
