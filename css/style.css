@@ -7,6 +7,7 @@
 body {
     margin: 0;
     height: 100%;
+    background-color: rgb(252, 252, 241);
 }
 
 html {
@@ -100,11 +101,11 @@ tfoot a{
     justify-content: center;
     text-align: center;
     color: white;
+    text-decoration: none;
 }
 
 tfoot a:hover {
-    background-color: rgb(61, 59, 59);
-    transition: 0.8s;
+    text-decoration: underline;
 }
 
 .depoimentos-cont text {
@@ -169,11 +170,13 @@ tfoot a:hover {
     width: 40%;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: black;
     color: white;
     margin: auto;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 20px 40px 20px;
 }
 
 .visita h2 {
@@ -191,10 +194,21 @@ tfoot a:hover {
     text-decoration: none;
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: bold;
     text-align: center;
 }
 
-visita a{
-    background-color: rgb(61, 59, 59);
+.visita a:hover{
+    text-decoration: underline;
+}
+
+footer {
+    padding: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
