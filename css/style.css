@@ -25,14 +25,17 @@ html {
     padding: 20px;
     display: flex;
     justify-content: center;
-    gap: 80px;
+    gap: 8rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-.nav li {
+.menu li {
     display: inline;
 }
 
-.nav li a {
+.menu li a {
     background-color: black;
     padding: 20px;
     text-align: center;
@@ -42,11 +45,33 @@ html {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.nav li a:hover {
+.menu li a:hover {
     background-color: rgb(61, 59, 59);
     padding: 20px;
     text-align: center;
     color: white;
+}
+
+.login li a {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    transition: 0.8s;
+    cursor:pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.login li a:hover {
+    background-color: rgb(61, 59, 59);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    margin-right: 10px;
 }
 
 main {
