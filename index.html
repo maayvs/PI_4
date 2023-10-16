@@ -3,105 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tua Beleza | Cabelos e Estética Feminina</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>TUA | Home</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <div class="nav">
-        <div class="menu">
-            <ul>
-                <li><a>HOME</a></li>
-                <li><a>SERVIÇOS</a></li>
-                <li><a>AGENDA</a></li>
-                <li><a>LOJA</a></li>
-                <li><a>CONTATO</a></li>
-            </ul>
-        </div>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Serviços</a>
+            <a href="schedule">Agenda</a>
+            <a href="#about-us">Sobre Nós</a>
+            <a href="#reviews">Depoimentos</a>
+            <a href="#contact">Contato</a>
+        </nav>
 
-        <div class="login">
-            <ul>
-                <li><a href="html/login.html"> 
-                    <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M224 256A128 128 0 1 0 224 0a128 128 0 1 0 0 256zm-45.7 48C79.8 304 0 383.8 0 482.3C0 498.7 13.3 512 29.7 512H418.3c16.4 0 29.7-13.3 29.7-29.7C448 383.8 368.2 304 269.7 304H178.3z"/></svg></span>
-                    <span>LOGIN</span>
-                </a></li>
-            </ul>
+        <div class="btns">
+            <a id="btn-login" href="html/login.html">Entrar</a>
+            <a id="btn-register" href="html/register.html/">Registre-se</a>
         </div>
-    </div>
+    </header>
 
     <main>
-        <div class="welcome">
-            <img src="images/logo2.png"/>
-            <text> | </text>
-            <h1>Bem-vinda</h1>
-        </div>
+        <section id="home">
+            <img src="images/logo2.png" alt="Logo principal">
+            <text>|</text>
+            <div class="home-text">
+                <h1>Bem-vinda!</h1>
+                <h2>Aqui você encontrará sua experiência completa de beleza</h2>
+            </div>
+        </section>
 
-        <div class="services">
+        <section id="services">
+            <div class="service">
+                <h2>Nossos serviços!</h2>
+                <table>
+                    <tr>
+                        <td>MANICURE</td>
+                        <td>R$18</td>
+                    </tr>
+    
+                    <tr>
+                        <td>TRATAMENTO DE CABELO</td>
+                        <td>R$25</td>
+                    </tr>
+    
+                    <tr>
+                        <td>CORTE DE CABELO</td>
+                        <td>R$35</td>
+                    </tr>
+    
+                    <tr>
+                        <td>MECHAS</td>
+                        <td>R$40</td>
+                    </tr>
+    
+                    <tr>
+                        <td>SOBRANCELHAS</td>
+                        <td>R$16</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="btn-agenda">
+                <a href="">Faça um agendamento</a>
+            </div>
+        </section>
 
-            <table cellspacing="20">
-                <thead>
-                    <td colspan="2">Nossos serviços!</td>
-                </thead>
+        <section id="about-us">
+            <h2>Sobre nós</h2>
+            <p>Somos uma empresa...</p>
+        </section>
 
-                <tr>
-                    <td>MANICURE</td>
-                    <td>R$18</td>
-                </tr>
+        <section id="reviews">
 
-                <tr>
-                    <td>TRATAMENTO DE CABELO</td>
-                    <td>R$25</td>
-                </tr>
-
-                <tr>
-                    <td>CORTE DE CABELO</td>
-                    <td>R$35</td>
-                </tr>
-
-                <tr>
-                    <td>MECHAS</td>
-                    <td>R$40</td>
-                </tr>
-
-                <tr>
-                    <td>SOBRANCELHAS</td>
-                    <td>R$16</td>
-                </tr>
-
-                <tfoot>
-                    <td colspan="2"><a href="">AGENDE JÁ</a></td>
-                </tfoot>
-            </table>
-        </div>
-
-        <div class="depoimentos">
             <h2>Depoimentos</h2>
-
-            <section class="cards">
-
+            <div class="cards">
                 <div class="card">
+
                     <img src="images/anitta.png" alt="" class="user">
-
-                    <h3>Anira</h3>
-
-                    <div class="stars">
-                        <img src="images/star.svg" alt="" class="star">
-                        <img src="images/star.svg" alt="" class="star">
-                        <img src="images/star.svg" alt="" class="star">
-                        <img src="images/star.svg" alt="" class="star">
-                        <img src="images/star.svg" alt="" class="star">
-                    </div>
-
-                    <p>Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
-                        BLA BLA BLA BLA BLA
-                    </p>
-
+    
+                        <h3>Anira</h3>
+    
+                        <div class="stars">
+                            <img src="images/star.svg" alt="" class="star">
+                            <img src="images/star.svg" alt="" class="star">
+                            <img src="images/star.svg" alt="" class="star">
+                            <img src="images/star.svg" alt="" class="star">
+                            <img src="images/star.svg" alt="" class="star">
+                        </div>
+    
+                        <p>Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
+                            BLA BLA BLA BLA BLA
+                        </p>
                 </div>
-
+    
                 <div class="card">
                     <img src="images/virginia.png" alt="" class="user">
-
+    
                     <h3>Virginia Fonseca</h3>
-
+    
                     <div class="stars">
                         <img src="images/star.svg" alt="" class="star">
                         <img src="images/star.svg" alt="" class="star">
@@ -109,18 +108,18 @@
                         <img src="images/star.svg" alt="" class="star">
                         <img src="images/star.svg" alt="" class="star">
                     </div>
-
+    
                     <p>Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
                         BLA BLA BLA BLA BLA
                     </p>
-
+    
                 </div>
-
+    
                 <div class="card">
                     <img src="images/maju-coutinho.png" alt="" class="user">
-
+    
                     <h3>Maju Coutinho</h3>
-
+    
                     <div class="stars">
                         <img src="images/star.svg" alt="" class="star">
                         <img src="images/star.svg" alt="" class="star">
@@ -128,30 +127,18 @@
                         <img src="images/star.svg" alt="" class="star">
                         <img src="images/star.svg" alt="" class="star">
                     </div>
-
+    
                     <p>Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA
                         BLA BLA BLA BLA BLA
                     </p>
                 </div>
-            </section>
-            
-            <div class="visita">
-
-                <h2>Faça uma visita</h2>
-
-                <text>Av. Bernardino de Campos, 98. São Paulo, SP - 12345-678</text><br>
-                <text>info@meusite.com | Tel: (11) 3456-7890</text><br><br>
-                <text>HORÁRIO DE FUNCIONAMENTO</text><br>
-                <text>Seg à Sex: 7:00 - 22:00 | Sáb: 8:00 - 20:00 | Dom: 8:00 - 18:00</text><br><br>
-
-                <a href="" style="font-size: 20px;">COMO CHEGAR ></a>
-
             </div>
+            
+        </section>
+
+        <section id="contact">
+            
+        </section>
     </main>
-
-    <footer>
-        <p>© 2023 Tua Beleza S.A - Copyright. Todos os direitos reservados.</p>
-    </footer>
-
 </body>
 </html>
