@@ -51,4 +51,5 @@ main {
 #submit:hover {
     transform: scale(1.05);
     transition: .2s;
+    cursor: pointer;
 }
