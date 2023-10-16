@@ -38,7 +38,7 @@ main {
     margin-bottom: 40px;
 }
 
-.btn-enter {
+#submit {
     margin-top: 24px;
     border-radius: 20px;
     padding: 10px;
@@ -48,7 +48,7 @@ main {
     width: 150px;
 }
 
-.btn-enter:hover {
+#submit:hover {
     transform: scale(1.05);
     transition: .2s;
 }
