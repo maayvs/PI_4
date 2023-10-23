@@ -1,0 +1,55 @@
+@import "./base/reset.css";
+@import "./base/variaveis.css";
+@import "./layout/header.css";
+@import "./layout/rodape.css";
+
+main {
+    height: 100vh;
+    display: flex;
+}
+
+.logo {
+    width: 50%;
+    background-color: rgb(252, 252, 241);
+    display: flex;
+    justify-content: center;
+}
+
+.formulario {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-principal);
+}
+
+.formulario label {
+    width: 250px;
+    text-align: start;
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    border: 1px solid rgba(97, 96, 96, 0.212);
+    border-radius: 20px;
+    padding: 10px;
+    width: 250px;
+    margin-bottom: 40px;
+}
+
+#submit {
+    margin-top: 24px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 150px;
+}
+
+#submit:hover {
+    transform: scale(1.05);
+    transition: .2s;
+    cursor: pointer;
+}

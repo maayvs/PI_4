@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUA | Home</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#services">Serviços</a>
+            <a href="schedule">Agenda</a>
+            <a href="#about-us">Sobre Nós</a>
+            <a href="#reviews">Depoimentos</a>
+            <a href="#contact">Contato</a>
+        </nav>
+
+        <div class="btns">
+            <a id="btn-login" href="html/login.html">Entrar</a>
+            <a id="btn-register" href="html/register.html">Registre-se</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <img src="images/logo2.png" alt="Logo principal">
+            <text>|</text>
+            <div class="home-text">
+                <h1>Bem-vinda!</h1>
+                <h2>Aqui você encontrará sua experiência completa de beleza</h2>
+            </div>
+        </section>
+
+        <section id="services">
+            <div class="service">
+                <h2>Nossos serviços!</h2>
+                <table>
+                    <tr>
+                        <td>MANICURE</td>
+                        <td>R$18</td>
+                    </tr>
+
+                    <!-- Adicione mais serviços aqui -->
+
+                </table>
+            </div>
+            <div class="btn-agenda">
+                <a href="https://tuabeleza.zohobookings.com/portal-embed#/customer/4514622000000039016" target="_blank">Faça um agendamento</a>
+            </div>
+            </section>
+            
+
+        <section id="about-us">
+            <h2>Sobre nós</h2>
+            <p>Somos uma empresa...</p>
+        </section>
+
+        <section id="reviews">
+            <h2>Depoimentos</h2>
+            <div class="cards">
+                <?php
+                // Exemplo de repetição de depoimentos usando PHP
+                $depoimentos = [
+                    ["Anira", "images/anitta.png", 5, "Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA"],
+                    ["Virginia Fonseca", "images/virginia.png", 5, "Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA"],
+                    ["Maju Coutinho", "images/maju-coutinho.png", 5, "Teste de depoimento. BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA BLA"]
+                ];
+
+                foreach ($depoimentos as $depoimento) {
+                    echo '<div class="card">';
+                    echo '<img src="' . $depoimento[1] . '" alt="" class="user">';
+                    echo '<h3>' . $depoimento[0] . '</h3>';
+                    echo '<div class="stars">';
+                    for ($i = 0; $i < $depoimento[2]; $i++) {
+                        echo '<img src="images/star.svg" alt="" class="star">';
+                    }
+                    echo '</div>';
+                    echo '<p>' . $depoimento[3] . '</p>';
+                    echo '</div>';
+                }
+                ?>
+            </div>
+        </section>
+
+        <section id="contact">
+            <!-- Adicione informações de contato aqui -->
+        </section>
+    </main>
+</body>
+</html>
