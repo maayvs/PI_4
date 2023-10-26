@@ -1,0 +1,98 @@
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Montserrat;
+    width: 100%;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    margin-left: 64px;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    padding: 24px;
+}
+
+nav a:hover {
+    background-color: rgb(54, 54, 54);
+    transition: .2s;
+}
+
+.icon-user {
+    color: white;
+    font-size: 24px;
+}
+
+ul {
+    display: inline block;
+    position: absolute;
+}
+
+li {
+    display: flex;
+    width: 200px;
+}
+
+.alterar-senha {
+    gap: 10px;
+}
+
+.config-user {
+    color: white;
+    text-decoration: none;
+    width: 150px;
+    height: 20px;
+    height: 64px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.config-user li:hover {
+    background-color: rgba(243, 241, 241, 0.774);
+}
+
+.dropdown {
+    text-decoration: none;
+    margin-top: 146px;
+    color: black;
+    background-color: white;
+    width: 200px;
+    height: 80px;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.171);
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.dropdown li {
+    padding: 10px;
+}
+
+.exit {
+    gap: 10px;
+}
+
+.config-user:hover .dropdown {
+    display: block;
+    transition-delay: 2s;
+}
+
+
+
