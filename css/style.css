@@ -189,7 +189,7 @@ td {
 }
 
 #depoiments h2 {
-    color: white;
+    color: rgb(252, 252, 241);
     font-family: var(--font-title);
     font-weight: 400;
     font-size: 46px;
@@ -206,15 +206,21 @@ td {
 }
 
 .dp1 {
-    width: 300px;
-    height: 700px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: rgba(180, 156, 125, 0.527);
+    background-color: rgb(252, 252, 241);
     border-radius: 20px;
+    width: 400px;
+    height: 400px;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 400px;
+
+    box-shadow: 5px 5px 30px rgba(131, 129, 129, 0.473);
+    font-family:var(--font-principal)
 }
 
 .depoiments-main {
@@ -222,7 +228,8 @@ td {
     margin: auto;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    gap: 50px;
+    height: 86vh;
 }
 
 .user {
