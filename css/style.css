@@ -185,6 +185,10 @@ td {
     height: 86vh;
 }
 
+#schedule .title {
+    background-color: rgb(70, 45, 12);
+}
+
 #schedule h2 {
     color: white;
     font-family: var(--font-title);
@@ -195,10 +199,6 @@ td {
     text-align: center;
 }
 
-#schedule .title {
-    background-color: rgb(70, 45, 12);
-}
-
 .schedule-main iframe {
     display: flex;
     justify-content: center;
@@ -206,6 +206,7 @@ td {
     margin: auto;
     margin-top: 20px;
 }
+
 #depoiments .title {
     background-color: rgb(70, 45, 12);
 }
