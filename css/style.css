@@ -185,6 +185,27 @@ td {
     height: 86vh;
 }
 
+#schedule h2 {
+    color: white;
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-size: 46px;
+
+    padding: 36px;
+    text-align: center;
+}
+
+#schedule .title {
+    background-color: rgb(70, 45, 12);
+}
+
+.schedule-main iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+}
 #depoiments .title {
     background-color: rgb(70, 45, 12);
 }
